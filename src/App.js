@@ -1,5 +1,12 @@
+import Topbar from "./components/topbar/Topbar";
+
 function App() {
-  return <div className="App">Hello</div>;
+  return (
+    <div>
+      <Topbar />
+      Hello
+    </div>
+  );
 }
 
 export default App;
