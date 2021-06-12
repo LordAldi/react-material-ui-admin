@@ -25,9 +25,15 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
+  margin-bottom: 5px;
 }
 
 .sidebarListItem.active,
 .sidebarListItem:hover {
   background-color: rgb(217, 217, 243);
+}
+
+.sidebarIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
 }
